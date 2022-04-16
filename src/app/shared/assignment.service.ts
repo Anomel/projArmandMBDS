@@ -19,7 +19,7 @@ export class AssignmentService {
   }
 
   // url = 'http://localhost:8010/api/assignments';
-  url = 'https://app-nodejs-mbdsci.herokuapp.com/api/assignments';
+  url = 'https://angular-mbds2021-melanon-api.herokuapp.com/api/assignments';
 
   getAssignments(page: number, limit: number): Observable<any> {
     // return of(this.assignments);
